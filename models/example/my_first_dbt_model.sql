@@ -8,6 +8,7 @@
 */
 {{ config(pre_hook="USE WAREHOUSE COMPUTE_WH") }}
 
+
 {{ config(materialized='table') }}
 
 with source_data as (
