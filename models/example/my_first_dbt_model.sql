@@ -6,6 +6,7 @@
 
     Try changing "table" to "view" below
 */
+
 {{ config(pre_hook="USE WAREHOUSE COMPUTE_WH") }}
 {{ config(materialized='table') }}
 
